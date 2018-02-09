@@ -5,7 +5,7 @@ import java.lang.management.ManagementFactory;
 import org.eclipse.swt.graphics.GC;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.Rectangle;
-import org.eclipse.swt.internal.gtk.OS;
+import org.eclipse.swt.internal.gtk.GTK;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
@@ -44,7 +44,7 @@ public class Test {
 	
 	
 	static String getGtkVersion () {
-		return "Gtk: " + OS.gtk_major_version() + "." + OS.gtk_minor_version() + "." + OS.gtk_micro_version() + "  pid:"
+		return "Gtk: " + GTK.gtk_major_version() + "." + GTK.gtk_minor_version() + "." + GTK.gtk_micro_version() + "  pid:"
 				+ ManagementFactory.getRuntimeMXBean().getName().split("@")[0];
 	}
 	
