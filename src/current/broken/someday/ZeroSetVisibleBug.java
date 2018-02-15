@@ -1,4 +1,4 @@
-package current.broken;
+package current.broken.someday;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;

@@ -10,7 +10,7 @@
  *     Jeanderson Candido <http://jeandersonbc.github.io> - Bug 414565
  *******************************************************************************/
 
-package current.broken.with.revert;
+package current.working;
 
 // NOTE: for some reason this snippet is broken here, but it's in the JFace snippet repo
 
