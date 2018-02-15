@@ -5,6 +5,7 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
+// https://bugs.eclipse.org/bugs/show_bug.cgi?id=531120
 public class ZeroSetVisibleBug {
 	public static void main(String[] args) {
 		Display display = new Display();

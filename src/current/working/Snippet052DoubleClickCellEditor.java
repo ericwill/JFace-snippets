@@ -12,7 +12,7 @@
  *     Lars Vogel <Lars.Vogel@vogella.com> - Bug 475361
  *******************************************************************************/
 
-package current.broken.with.revert;
+package current.working;
 
 import java.util.ArrayList;
 import java.util.List;
